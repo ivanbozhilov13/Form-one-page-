@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Survey Form, survey, freecodecamp">
+ <meta name="author" content="Ivan1 Bozhilov13">
+ <title>Survey Form</title>
+ <link rel="stylesheet" href="mystyle2.css">
+</head>
+<body>
+    <main id="main">
+      <h1 id="title">Survey Form</h1>
+        <p id="description"><i>Survey Form to check for user problems</i></p>
+        <section id="section">
+          <form action="php.action" id=survey-form>
+            <label for="name" id="name-label">Enter your name:</label><br>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br>
+            <label for="email" id="email-label">Enter your e-mail:</label><br>
+            <input type="email" id="email" placeholder="Enter your Email" required>
+            <br>
+            <label for="number" id="number-label">Enter your programming experience (in years):</label><br>
+            <input type="number" id="number" placeholder="Enter number" min=0 max=10>
+            <br>
+            <label for="question">Around what age did you start programming ?</label><br>
+            <select name="question" id="dropdown">
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="24">26</option>
+              </select>
+              <br>
+              <h2>Which programming language did you learn first ?</h2>
+              <input type="radio" id="male" name="language" value="java">
+              <label for="male">Java</label><br>
+              <input type="radio" id="C++" name="language" value="c++">
+              <label for="female">C++</label><br>
+              <input type="radio" id="other" name="language" value="JavaScript">
+              <label for="javascript">JavaScript</label>
+              <br>
+              <h2>What would you like to improve in your learning system ?</h2>
+              <input type="checkbox" value="taking online courses">Online courses</input><br>
+              <input type="checkbox" value="programmers meetings">Programmers meet-ups</input><br>
+              <input type="checkbox" value="completing freecodecamp">Compliting FreeCode's Curriculum</input>
+              <br>
+              <h2>Any comments or suggestions ? Constructive criticism is well accepted</h2>
+               <textarea name="textarea" id="textarea" cols="20" rows="20" placeholder="Enter your comments here..."></textarea>
+              <br>
+              <button id="submit">Sumbit form!</button>
+            </form>
+          </section>
+          </main>
+          <footer id="footer">Copyright of &copy; Example of a form-FreeCodeCamp</footer>
+      </body>
+</html>

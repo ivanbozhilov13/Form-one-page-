@@ -1,0 +1,92 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600px;
+  margin: 0;
+  padding: 0;
+  background-color: #4d4b4b67;
+}
+/*Global Styling*/
+#main{
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+/*Styling header + page's description*/
+#title{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  color: #ffffff;
+}
+#description{
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+/*Styling the form*/
+#survey-form{
+  border: blue 10px solid;
+  padding: 20px;
+  margin-right: 100px;
+  border-radius: 10px;  
+}
+#section{
+  margin-top: 30px;
+  margin-left: 150px;
+}
+#section input[type=text]{
+  width: 70%;
+  margin-top: 10px;
+  height: 2em;
+  border: 3px white solid;
+  border-radius: 5px;
+}
+#section input[type=email]{
+  width: 70%;
+  margin-top: 10px;
+  height: 2em;
+  border: 3px white solid;
+  border-radius: 5px;
+}
+#section #number{
+  width: 70%;
+  margin-top: 10px;
+  height: 2em;
+  border: 3px white solid;
+  border-radius: 5px;
+}
+#dropdown{
+  width: 70%;
+  margin-top: 10px;
+  height: 2.6em;
+  border: 3px white solid;
+  border-radius: 5px;
+}
+#section #textarea{
+  width: 70%;
+  margin-top: 10px;
+  height: 10em;
+  border: 3px white solid;
+  border-radius: 5px;
+}
+#section #submit{
+  width: 70%;
+  margin-top: 10px;
+  height: 2em;
+  border: 3px white solid;
+  border-radius: 5px;
+  background-color: #0000ff;
+  color: #ffffff;
+  height: 5em;
+  font-size: 16px;
+}
+#footer{
+  background-color: #0000ff;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
