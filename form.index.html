@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Survey Form, survey, freecodecamp">
+ <meta name="author" content="Ivan1 Bozhilov13">
+ <title>Survey Form</title>
+ <link rel="stylesheet" href="mystyle-form.css">
+</head>
+<body>
+  <main id="main">
+    <div class="container">
+    <header id="header">
+      <h1>Survey Form</h1>
+      <p>Survey to check about our programmers experience</p>
+    </header>
+    <form action="" id="my-form">
+      <h2>Enter Information</h2>
+    <div>
+      <label for="fname">Enter Name:</label><br>
+      <input type="text" id="fname" placeholder="Enter name..." required>
+    </div>
+    <div>
+      <label for="email">Enter E-mail:</label><br>
+      <input type="email" id="email" placeholder="Enter E-mail..." required>
+    </div>
+    <div>
+      <label for="age">What age did you start programming ?</label><br>
+      <input type="number" id="age" placeholder="Enter age..." min="0" max="90">
+    </div>
+    <div>
+      <h3>Which programming language did you start with ?</h3>
+      <input type="radio" id="java" value="java">
+      <label for="java">Java</label><br>
+      <input type="radio" id="radio" value="c++">
+      <label for="c++">C++</label><br>
+      <input type="radio" id="javascript" value="javascript">
+      <label for="javascripit">JavaScript</label><br>
+      <input type="radio" id="c#" value="c#">
+      <label for="c#">C#</label><br>
+      <input type="radio" id="other" value="other">
+      <label for="other">Other</label>
+    </div>
+    <div>
+      <h3>Which option best describes your current role?</h3>
+      <select name="profession" id="dropdown">
+        <option value="Student">Student</option>
+        <option value="Programmer">Programmer</option>
+        <option value="Part-time">Part-time Student</option>
+        <option value="Full-time Learner">Full-time Learner</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div>
+      <h3>Any comments, suggestions or criticism ?</h3>
+      <textarea name="textare" id="textarea" cols="30" rows="20" placeholder="
+      Comments here..."></textarea>
+    </div>
+    <div>
+      <input id="button" type="submit" value="Submit form!">
+    </div>
+    </form>
+    </div>
+    <div>
+      <footer id="footer">
+        <p>Copyright of &copy; 'name of company', 2020</p>
+      </footer>
+    </div>
+  </main>
+</body>
