@@ -11,12 +11,14 @@ body{
    margin: 0;
    padding: 0;
 }
+
 /*Global Styling*/
 .container{
   width: 60%;
   margin: auto;
   overflow: hidden;
 }
+
 /*Styling the header*/
 #header h1, p{
   color:white;
@@ -29,6 +31,7 @@ body{
 #header p{
   font-style: italic;
 }
+
 /*Styling the form*/
 #my-form{
   background-color: #a9a9a9;
@@ -78,6 +81,7 @@ body{
 #button:hover{
   color: #008000;
 }
+
 /*Last but not least - styling the button*/
 #footer{
   background-color: blue;
